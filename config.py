@@ -7,22 +7,22 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = API_ID
-API_HASH = "API_HASH"
+API_ID = API_ID 23685328
+API_HASH = "API_HASH" 560f107ef98507cdd0a567a665b9ad80
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = "BOT_TOKEN"
+BOT_TOKEN = "BOT_TOKEN" 7681371317:AAEyxQzgCWHWtgphkXwjvARopQGWhRUt_NY
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = "MONGO_DB_URI"
+MONGO_DB_URI = "MONGO_DB_URI"DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://abhijitghosh789034:<abhijitghosh789034>@cluster0.jwroecy.mongodb.net/
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
 
 # Chat id of a group for logging bot's activities
-LOG_GROUP_ID = LOG_GROUP_ID
+LOG_GROUP_ID = LOG_GROUP_ID -1002442064939
 
 # Get this value from @ultron2_robot on Telegram by /id
-OWNER_ID = OWNER_ID
+OWNER_ID = OWNER_ID 7859280271
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -77,9 +77,9 @@ autoclean = []
 confirmer = {}
 
 
-START_IMG_URL = "https://graph.org/file/f586172fe40a0b5d0b0df.jpg"
+START_IMG_URL = "https://graph.org/file/b0a4284048c272e22dfaf-85e14d89b36b9c3b29.jpg"
 
-PING_IMG_URL = "https://graph.org/file/f586172fe40a0b5d0b0df.jpg"
+PING_IMG_URL = "https://graph.org/file/b0a4284048c272e22dfaf-85e14d89b36b9c3b29.jpg"
 
 PLAYLIST_IMG_URL = "https://graph.org/file/763a841a2ad5cbb1e2fc5.jpg"
 STATS_IMG_URL = "https://graph.org/file/f586172fe40a0b5d0b0df.jpg"
